@@ -7,6 +7,7 @@ const io = require("socket.io")(server, {
   cors: {
     origin: '*'
   }
+  
 });
 const { ExpressPeerServer } = require("peer");
 const opinions = {
